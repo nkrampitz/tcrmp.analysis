@@ -1,0 +1,43 @@
+Package: tcrmp
+Title: TCRMP Data Analysis
+Version: 1.0
+Authors@R: 
+    c(person(given = "Rosmin",
+             family = "Ennis",
+             role = c("aut", "cre"),
+             email = "rosmin.ennis@uvi.edu"),
+             person(given = "Sarah",
+                    family = "Heidmann",
+                    role = c("ctb"),
+                    email = "sarah.heidmann@uvi.edu"))
+Description: TCRMP Data Analysis. This package provides tools to analyze all data collected
+    by the US Virgin Islands Territorial Coral Reef Monitoring Program (TCRMP). Data
+    types include: benthic cover, coral health assessments, fish community census,
+    Diadema antillarum density, and benthic temperature. Detailed descriptions of
+    data types can be found on the USVI TCRMP website:
+    https://sites.google.com/site/usvitcrmp/.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+    cowplot,
+    dplyr,
+    ggplot2,
+    imager,
+    jpeg,
+    lubridate,
+    magrittr,
+    padr,
+    plyr,
+    purrr,
+    readr,
+    rlang,
+    spatstat.geom,
+    stringr,
+    tibble,
+    tidyr
+URL: https://sites.google.com/site/usvitcrmp/
+Depends: 
+    R (>= 2.10)
